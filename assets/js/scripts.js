@@ -5,7 +5,7 @@ var currentNumber = 0;
 
 
 function Increment() {
-    currentNumber = currentNumber + 1;
+    currentNumber += 1.0;
     if (currentNumber > 0 || currentNumber == 0){
         currentNumberWrapper.innerHTML = currentNumber;
 
@@ -20,7 +20,7 @@ function Increment() {
 }
 
 function Decrement() {
-    currentNumber -= 1;
+    currentNumber --;
     if (currentNumber < 0 || currentNumber == 0){
         currentNumberWrapper.innerHTML = currentNumber;
 
